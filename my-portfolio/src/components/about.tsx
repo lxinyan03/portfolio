@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <section id="about" className="about-section element-fade-up" data-animation="fade-up">
       <h1>About Me</h1>
       <p className="element-fade-up faster" data-animation="fade-up">
-        I’m a final-year (Year 4) Computer Science student at the University of Bristol with interests in Artificial Intelligence, Machine Learning, and scalable software systems. I have experience building and evaluating deep learning models and enjoy applying technical concepts to real-world challenges. I’m currently seeking graduate and entry-level full-time roles in software engineering and AI-focused teams.
+        Predicted First-Class MEng Computer Science graduate from the University of Bristol (June 2026), with hands-on experience in deep learning research, full-stack development, and award-winning product engineering. Proven expertise in designing backend architectures, complex PostgreSQL schemas, and state-of-the-art low-light video enhancement systems.
       </p>
     </section>
   );

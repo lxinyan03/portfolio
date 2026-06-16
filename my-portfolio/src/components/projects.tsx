@@ -7,6 +7,7 @@ import project5 from "../assets/medic recall.png";
 import project6 from "../assets/cg.gif";
 import project7 from "../assets/mekdi pipeline.png";
 import project8 from "../assets/DrugWise.png";
+import project9 from "../assets/arch-3_page-0001.jpg";
 import useFadeUp from "./fadeUp";
 
 const projects = [
@@ -58,6 +59,12 @@ const projects = [
     image: project8,
     github: "https://github.com/zt22740/apuc_new.git",
   },
+  {
+    id: 9,
+    title: "Curriculum-Guided Low-Light Video Enhancement",
+    image: project9,
+    github: "https://github.com/lxinyan03/curriculum-guided-low-light-video-enhancement.git",
+  },
 ];
 
 const Projects: React.FC = () => {
@@ -68,7 +75,6 @@ const Projects: React.FC = () => {
       <div className="projects-grid element-fade-up" data-animation="fade-up">
         {projects.map((project) => (
             <div key={project.id} className="project-card element-fade-up" data-animation="fade-up">
-              {/* Conditionally Render GIF or Image */}
               {project.gif ? (
                 <img src={project.gif} alt={project.title} className="project-media" />
               ) : (
