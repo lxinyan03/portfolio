@@ -26,12 +26,12 @@ const Sidebar: React.FC = () => {
         </RollingLink>
 
         {/* GitHub Icon */}
-        <RollingLink href="https://github.com/zt22740" target="_blank" className="square icon-skin">
+        <RollingLink href="https://github.com/lxinyan03" target="_blank" className="square icon-skin">
            <FaGithub />
         </RollingLink>
 
         {/* LinkedIn Icon */}
-        <RollingLink href="https://www.linkedin.com/in/xin-yan-lim-70200b265/" target="_blank" className="square icon-skin">
+        <RollingLink href="https://www.linkedin.com/in/xinyan-lim" target="_blank" className="square icon-skin">
            <FaLinkedin />
         </RollingLink>
 
